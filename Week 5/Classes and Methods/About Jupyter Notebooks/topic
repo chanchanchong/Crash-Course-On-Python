@@ -1,0 +1,37 @@
+In all our quizzes so far, we've been working with code blocks. Code blocks
+are a great tool for writing small snippets of code, but now we're tackling
+more complex problems so we need a more powerful tool. 're going to
+start using a new tool called Jupyter Notebooks lets us edit and run our code in the web
+browser. The difference is that we can add explanations and between the
+code, and also the pieces of code are related to each other. Jupyter
+Notebooks are an open-source technology that you can use outside this
+computer. Without further ado, let's check out how a Jupyter Notebook
+works and what you can do with it. We'll first click an Open Notebook and
+wait until the notebook loads. Now that it's loaded, you can see some
+explanatory text and a bit of code. We can execute the code by clicking the
+run button in the toolbar, or we can also run it by pressing Shift+Enter on our
+keyboard. Now that we've run our code, you can see there's a number here
+next to the first cell. This number tells us that the code has been executed. If
+a cell generates any output, it'll appear at the end of he cell. Let's try
+executing the next cell and see if we get an output.
+
+This cell includes some print calls, so after executing it, the interpreter
+printed the values. The comments in the code tells us that these values
+should be nine and one, but the print statement say that they're zero that's
+because we need to edit the code in the first cell to make it do what it needs
+to do. Let's edit the go-to function.
+
+Once we've made the change, we need to re-execute the cell so that the
+elevator class in modified, and an elevator variable is created with the new
+elevator class.
+
+Now we can re-execute the second cell.
+
+Okay, now we get 10 and negative one instead of zero. But that's still not
+what our comment say we should get. We still got work to do on the code to
+make it do what it's supposed to do. We don't want to get ahead of
+ourselves, though. So let's leave it that. Once you're working through the
+exercises yourself in your Jupyter Notebook, remember you have to re-
+execute the class definition whenever you modify it. If you forget, the
+elevator variable won't change. If at any point you're stuck or something
+doesn't work as expected, there's more help in the next reading. Good luck.

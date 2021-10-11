@@ -1,0 +1,61 @@
+Create a daily report that tracks the use of
+machines. Specifically, she wants to know which
+users are currently connected to which machines, it's
+your job to create the report.
+
+In your company, there's a system that collects every
+event that happens on the machines on the network.
+Among the many events collected it records each
+time a user logs in our out of a computer. With
+this information, we want to write a script that
+generates a report of which users are logged in
+to which machines at that time.
+
+The input is a list of events, each event is an
+instance of the event class. An event class
+contains the date
+class Event:
+    # Event date
+    Date = ""
+    # Machine name
+    Machine = ""
+    # User
+    User = ""
+    # Event type
+    Type = "" (e.g., "Login", "Logout")
+
+or?
+
+class Event:
+    def __init__(self):
+        self.Date
+        self.Machine
+        self.User
+        self.Type
+
+
+s = event()
+e = event()
+events = [event(), event(), event()]
+
+Report
+webserver.local:
+- kay
+- taylor
+- charlie
+
+or
+
+webserver.local:
+kay, taylor, charlie
+
+mailserver.local:
+alexis, ryan, kay
+
+myworkstation.local:
+taylor
+
+Problem statement?
+We need to process a list of Event objects using their
+attributes to generate a report that lists all users
+currently logged in to the machines.

@@ -1,0 +1,28 @@
+Dictionary Methods Cheat Sheet
+
+Definitions
+x = {key1: value1, key2: value2}
+
+Operations
+- len(dictionary) - returns the number of items in the dictionary
+- for key in dictionary - iterates over each key in the dictionary
+- for key, value in dictionary.items() - iterates over each key, value pair in the
+  dictionary.
+- if key in dictionary - checks whether the key is in the dictionary
+- dictionary[key] = accesses the item with key key of the dictionary
+- dictionary[key] = value - sets the value associated with key
+- del dictionary[key] = removes the item with key key from the dictionary
+
+
+Methods
+- dict.get(key, default) - returns the element corresponding to key, or default
+  if it's not present
+- dict.keys() - returns a sequence containing the keys in the dictionary
+- dict.values() - returns a sequence containing the values in the dictionary
+- dict.update(other_dictionary - updates the dictionary with the items
+  coming from the other dictionary. Existing entries will be replaced; new
+  entries will be added.
+- dict.clear() - removes all the items of the dictionary
+
+Check out the official documentation for dictionary operations and methods.
+

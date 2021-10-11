@@ -1,0 +1,20 @@
+Problem Statement???
+
+
+
+Each event is an instance of the event class.
+Event class
+contains the date when the event happened,
+the name of the machine where it happened,
+the user involved and the event type
+
+Attributes
+Date
+User
+Machine
+Type
+Event Types = strings
+
+Login
+Log out
+
